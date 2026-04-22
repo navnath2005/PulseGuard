@@ -1,0 +1,14 @@
+Analyzing lib...
+
+  error - screens\dashboard\dashboard_screen.dart:5:8 - Target of URI doesn't exist: '../../services/firebase_service.dart'. Try creating the file referenced by the URI, or try using a URI for a file that does exist. - uri_does_not_exist
+  error - screens\dashboard\dashboard_screen.dart:17:9 - Undefined class 'FirebaseService'. Try changing the name to the name of an existing class, or creating a class with the name 'FirebaseService'. - undefined_class
+  error - screens\dashboard\dashboard_screen.dart:17:44 - The method 'FirebaseService' isn't defined for the type '_DashboardScreenState'. Try correcting the name to the name of an existing method, or defining a method named 'FirebaseService'. - undefined_method
+   info - main.dart:11:7 - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor. - use_key_in_widget_constructors
+   info - screens\auth\login_screen.dart:3:7 - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor. - use_key_in_widget_constructors
+   info - screens\dashboard\dashboard_screen.dart:10:7 - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor. - use_key_in_widget_constructors
+   info - screens\dashboard\dashboard_screen.dart:12:3 - Invalid use of a private type in a public API. Try making the private type public, or making the API that uses the private type also be private. - library_private_types_in_public_api
+   info - services\firebasee_service.dart:11:7 - Don't invoke 'print' in production code. Try using a logging framework. - avoid_print
+   info - widgets\graph_widget.dart:8:9 - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor. - use_key_in_widget_constructors
+   info - widgets\health_card.dart:8:9 - Constructors for public widgets should have a named 'key' parameter. Try adding a named parameter to the constructor. - use_key_in_widget_constructors
+
+10 issues found.

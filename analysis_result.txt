@@ -1,0 +1,7 @@
+Analyzing lib...
+
+  error - widgets\graph_widget.dart:134:27 - The named parameter 'tooltipRoundedRadius' isn't defined. Try correcting the name to an existing named parameter's name, or defining a named parameter with the name 'tooltipRoundedRadius'. - undefined_named_parameter
+warning - screens\auth\login_screen.dart:1:8 - Unused import: 'dart:math'. Try removing the import directive. - unused_import
+   info - widgets\dashboard_header.dart:1:8 - The import of 'dart:ui' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart'. Try removing the import directive. - unnecessary_import
+
+3 issues found.
